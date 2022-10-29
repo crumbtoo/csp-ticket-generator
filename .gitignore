@@ -1,3 +1,4 @@
+!build/
 src/.dart_tool
 src/pubspec.lock
 src/pubspec.yaml
