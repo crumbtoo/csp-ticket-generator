@@ -109,6 +109,14 @@ void postbutton_click(Event? ev)
 			dayow = int.parse(dayow_fuckdart);
 			age = int.parse(age_fuckdart);
 
+			if(dayow == -1)
+				message(age_input, "var(--cat-red)", "var(--cat-crust)",
+					"select a day");
+
+			if(age < 0)
+				message(age_input, "var(--cat-red)", "var(--cat-crust)",
+					"invalid age grow up");
+
 			int price = calc_price(days.values[dayow], age,
 				discount_input!.value);
 
@@ -117,7 +125,7 @@ void postbutton_click(Event? ev)
 		on FormatException
 		{
 			message(age_input, "var(--cat-red)", "var(--cat-crust)",
-				"you know what you've done wrong >:(");
+				"missing or invalid input");
 		}
 
 	}
