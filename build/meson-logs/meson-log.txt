@@ -1,0 +1,21 @@
+Build started at 2022-10-28T13:39:36.876881
+Main binary: /usr/local/opt/python@3.10/bin/python3.10
+Build Options: 
+Python system: Darwin
+The Meson build system
+Version: 0.63.3
+Source dir: /Users/crumble/Documents/school/CSP/tickets.test
+Build dir: /Users/crumble/Documents/school/CSP/tickets.test/build
+Build type: native build
+Project name: tickets.test
+Project version: 0.0.0
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Program dart found: YES (/usr/local/bin/dart)
+Build targets in project: 1
+
+Found ninja-1.11.1 at /usr/local/bin/ninja

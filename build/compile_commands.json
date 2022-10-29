@@ -1,0 +1,122 @@
+[
+  {
+    "directory": "/Users/crumble/Documents/school/CSP/tickets.test/build",
+    "command": "/usr/local/bin/dart compile js -O3 -o script.js ../src/main.dart",
+    "file": "../src/main.dart",
+    "output": "script.js"
+  },
+  {
+    "directory": "/Users/crumble/Documents/school/CSP/tickets.test/build",
+    "command": "",
+    "file": "meson-internal__test",
+    "output": "test"
+  },
+  {
+    "directory": "/Users/crumble/Documents/school/CSP/tickets.test/build",
+    "command": "/usr/local/Cellar/meson/0.63.3/bin/meson test --no-rebuild --print-errorlogs",
+    "file": "all",
+    "output": "meson-internal__test"
+  },
+  {
+    "directory": "/Users/crumble/Documents/school/CSP/tickets.test/build",
+    "command": "",
+    "file": "meson-internal__benchmark",
+    "output": "benchmark"
+  },
+  {
+    "directory": "/Users/crumble/Documents/school/CSP/tickets.test/build",
+    "command": "/usr/local/Cellar/meson/0.63.3/bin/meson test --benchmark --logbase benchmarklog --num-processes=1 --no-rebuild",
+    "file": "all",
+    "output": "meson-internal__benchmark"
+  },
+  {
+    "directory": "/Users/crumble/Documents/school/CSP/tickets.test/build",
+    "command": "",
+    "file": "meson-internal__install",
+    "output": "install"
+  },
+  {
+    "directory": "/Users/crumble/Documents/school/CSP/tickets.test/build",
+    "command": "/usr/local/Cellar/meson/0.63.3/bin/meson install --no-rebuild",
+    "file": "PHONY",
+    "output": "meson-internal__install"
+  },
+  {
+    "directory": "/Users/crumble/Documents/school/CSP/tickets.test/build",
+    "command": "",
+    "file": "meson-internal__dist",
+    "output": "dist"
+  },
+  {
+    "directory": "/Users/crumble/Documents/school/CSP/tickets.test/build",
+    "command": "/usr/local/Cellar/meson/0.63.3/bin/meson dist",
+    "file": "PHONY",
+    "output": "meson-internal__dist"
+  },
+  {
+    "directory": "/Users/crumble/Documents/school/CSP/tickets.test/build",
+    "command": "",
+    "file": "meson-internal__ctags",
+    "output": "ctags"
+  },
+  {
+    "directory": "/Users/crumble/Documents/school/CSP/tickets.test/build",
+    "command": "/usr/local/Cellar/meson/0.63.3/bin/meson --internal tags ctags /Users/crumble/Documents/school/CSP/tickets.test",
+    "file": "PHONY",
+    "output": "meson-internal__ctags"
+  },
+  {
+    "directory": "/Users/crumble/Documents/school/CSP/tickets.test/build",
+    "command": "",
+    "file": "meson-internal__uninstall",
+    "output": "uninstall"
+  },
+  {
+    "directory": "/Users/crumble/Documents/school/CSP/tickets.test/build",
+    "command": "/usr/local/Cellar/meson/0.63.3/bin/meson --internal uninstall",
+    "file": "PHONY",
+    "output": "meson-internal__uninstall"
+  },
+  {
+    "directory": "/Users/crumble/Documents/school/CSP/tickets.test/build",
+    "command": "",
+    "file": "meson-test-prereq",
+    "output": "all"
+  },
+  {
+    "directory": "/Users/crumble/Documents/school/CSP/tickets.test/build",
+    "command": "",
+    "file": "meson-internal__clean",
+    "output": "clean"
+  },
+  {
+    "directory": "/Users/crumble/Documents/school/CSP/tickets.test/build",
+    "command": "",
+    "file": "meson-internal__clean-ctlist",
+    "output": "clean-ctlist"
+  },
+  {
+    "directory": "/Users/crumble/Documents/school/CSP/tickets.test/build",
+    "command": "/usr/local/Cellar/meson/0.63.3/bin/meson --internal cleantrees /Users/crumble/Documents/school/CSP/tickets.test/build/meson-private/cleantrees.dat",
+    "file": "PHONY",
+    "output": "meson-internal__clean-ctlist"
+  },
+  {
+    "directory": "/Users/crumble/Documents/school/CSP/tickets.test/build",
+    "command": "/usr/local/bin/ninja -t clean",
+    "file": "PHONY",
+    "output": "meson-internal__clean"
+  },
+  {
+    "directory": "/Users/crumble/Documents/school/CSP/tickets.test/build",
+    "command": "/usr/local/Cellar/meson/0.63.3/bin/meson --internal regenerate /Users/crumble/Documents/school/CSP/tickets.test /Users/crumble/Documents/school/CSP/tickets.test/build --backend ninja",
+    "file": "../meson.build",
+    "output": "build.ninja"
+  },
+  {
+    "directory": "/Users/crumble/Documents/school/CSP/tickets.test/build",
+    "command": "/usr/local/Cellar/meson/0.63.3/bin/meson --internal regenerate /Users/crumble/Documents/school/CSP/tickets.test /Users/crumble/Documents/school/CSP/tickets.test/build --backend ninja",
+    "file": "PHONY",
+    "output": "reconfigure"
+  }
+]
