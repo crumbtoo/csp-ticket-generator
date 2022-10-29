@@ -1,0 +1,87 @@
+@import "catppuccin.css";
+@import "hack-nerd-font-mono.css";
+
+:root
+{
+	--cat-highlight: var(--cat-flamingo);
+	--useless-gap: 8px;
+	--border-radius: 4px;
+}
+
+html
+{
+	height: 100%;
+}
+
+body
+{
+	background-color: var(--cat-base);
+	min-height: 100%;
+	padding: var(--useless-gap) 15%;
+	font-family: "Hack Nerd Font Mono", monospace;
+	color: var(--cat-text);
+}
+
+::-webkit-input-placeholder {
+	font-style: italic; 
+	font-weight: normal;
+}
+:-moz-placeholder {
+	font-style: italic; 
+	font-weight: normal;
+}
+::-moz-placeholder {
+	font-style: italic; 
+	font-weight: normal;
+}
+:-ms-input-placeholder {  
+	font-style: italic; 
+	font-weight: normal;
+}
+
+.split
+{
+	height: 100%;
+	width: 50%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	/* overflow-x: hidden; */
+	padding-top: 20px;
+}
+
+.left
+{
+	left: 0;
+	align-content: center;
+}
+
+.right
+{
+	right: 0;
+}
+
+
+.box
+{
+	text-align: center;
+	margin: 0 auto;
+	padding: var(--useless-gap);
+	border-radius: var(--border-radius);
+	background-color: var(--cat-crust);
+	font-family: "Hack Nerd Font Mono", monospace;
+}
+
+button, .dropdown
+{
+	font-family: "Hack Nerd Font Mono";
+	text-align: center;
+	margin-top: var(--useless-gap);
+	padding: 5px;
+	border-radius: var(--border-radius);
+	width: 100%;
+	background-color: var(--cat-surface0);
+	color: var(--cat-overlay1);
+	border: none;
+	cursor: pointer;
+}

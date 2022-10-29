@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>museum ticket generator</title>
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<script defer src="../build/script.js"></script>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<div class="split left">
+			<div class="box" style="max-width:360px;">
+				<div class="box" style="background-color:var(--cat-overlay0);
+				display:flex; padding:0;
+				justify-content:stretch;">
+					<div style="text-align:left;margin:var(--useless-gap);">
+						museum ticket generator
+					</div>
+					<div style="text-align:right;margin-left:auto;
+					margin-right:var(--useless-gap);font-size:28px;">
+						
+					</div>
+				</div>
+
+				<select id="dayow-input" class="dropdown">
+					<option value="-1" selected disabled hidden
+					>weekday</option>
+					<option value=0>sunday</option>
+					<option value=1>monday</option>
+					<option value=2>tuesday</option>
+					<option value=3>wednesday</option>
+					<option value=4>thursday</option>
+					<option value=5>friday</option>
+					<option value=6>saturday</option>
+				</select>
+
+				<input type="number" class="dropdown" id="age-input"
+				style="padding-left:0px; padding-right:0px;"
+				placeholder="your age">
+
+				<input class="dropdown" id="discount-input"
+				style="padding-left:0px;
+				padding-right:0px;
+				background-color:var(--cat=surface1);"
+				placeholder="discount code (optional)">
+
+				<button id="postbutton" type=submit
+				style="color:var(--cat-highlight);">generate ticket</button>
+
+			</div>
+		</div>
+
+		<div class="split right">
+			<div id="ticket" class="box" style="background-color:white;
+			max-width:360px;
+			color:var(--cat-mantle);">
+				<div style="display:flex; padding:0;
+				justify-content:stretch;">
+					<div style="text-align:left;margin:var(--useless-gap);">
+						<b>Admit One</b>
+					</div>
+					<div style="text-align:right;margin-left:auto;
+					margin-right:var(--useless-gap);font-size:28px;">
+						
+					</div>
+				</div>
+				<div id="ticket-body">
+					<i>generate a ticket with the form on the left</i>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+

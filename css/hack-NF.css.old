@@ -1,0 +1,33 @@
+@font-face
+{ 
+	font-family: "Hack-NF";
+	src: url("../assets/Hack Regular Nerd Font Complete Mono Windows Compatible.ttf");
+	font-style: normal;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: "Hack-NF";
+	src: url("../assets/Hack Bold Italic Nerd Font Complete Mono Windows Compatible.ttf");
+	font-style: bold;
+	font-style: italic;
+}
+
+@font-face
+{
+	font-family: "Hack-NF";
+	src: url("../assets/Hack Bold Nerd Font Complete Mono Windows Compatible.ttf");
+	font-style: bold;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: "Hack-NF";
+	src: url("../assets/Hack Italic Nerd Font Complete Mono Windows Compatible.ttf");
+	font-style: normal;
+	font-style: italic;
+}
+
+
